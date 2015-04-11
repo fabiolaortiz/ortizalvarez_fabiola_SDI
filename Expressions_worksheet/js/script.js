@@ -21,4 +21,6 @@ var qtyPeople = prompt('Please enter the quantity of people:');
 //Multiplying slices per pizza by quantity of pizzas ordered and dividing it by quantity of people
 var slicesPerPerson = pizzaSlices * pizzaOrdered / qtyPeople
 
+//Displays how many slices each person ate
 alert('Each person ate ' + slicesPerPerson + ' slices of pizza at the party.');
+
