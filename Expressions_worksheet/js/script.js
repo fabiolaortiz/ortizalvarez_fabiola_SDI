@@ -24,3 +24,15 @@ var slicesPerPerson = pizzaSlices * pizzaOrdered / qtyPeople
 //Displays how many slices each person ate
 alert('Each person ate ' + slicesPerPerson + ' slices of pizza at the party.');
 
+
+//Calculate how much pizza Sparky will get
+//Asking information and storing it in variables
+pizzaOrdered = prompt('Please enter the quantity of pizzas ordered:');
+pizzaSlices = prompt('Please enter the quantity of slices each pizza contains:');
+qtyPeople = prompt('Please enter the quantity of people:');
+
+//Multiply slices by pizza ordered and then get the modulo by dividing by quantity of people
+var sliceSparky = pizzaSlices * pizzaOrdered % qtyPeople;
+
+//Displays how much pizza Sparky gets
+alert('Sparky got ' + sliceSparky + ' slices of pizza.');
