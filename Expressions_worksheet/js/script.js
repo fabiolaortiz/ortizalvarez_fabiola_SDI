@@ -48,3 +48,18 @@ var aveAmount = totalAmount/5;
 
 //Displays the total amount and the average amount to the user
 alert('You have spent a total of \uFF04' + totalAmount + ' on groceries over 5 weeks. \nThat is an average of \uFF04' + aveAmount + ' per week.');
+
+
+//Calculate discount
+//Creating variables to hold the information
+var itemDescription = prompt('Description of the of the item:');
+var price = prompt('Enter the price of the item:');
+var discountPercentage = prompt('Enter the amount of the discount:');
+var salesTax = prompt('Enter the sales tax percentage:');
+
+//Calculation the prices with and without tax
+var priceDisc = price - price * discountPercentage/100;
+var priceTax = priceDisc + priceDisc * salesTax / 100;
+
+//Displays the information of the prices with and without tax to the user
+alert('Your ' + itemDescription + ' was originally \uFF04' + price + ', but after a ' + discountPercentage + '\u0025 discount, it is now \uFF04' + priceDisc + ' without tax, and \uFF04' + priceTax + ' with tax.');
