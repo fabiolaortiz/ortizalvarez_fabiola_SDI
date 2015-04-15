@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c65c8d-8d6e-4cec-ad96-79e72e7fe878" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/index.html" afterPath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js" />
     </list>
     <ignored path="ortizalvarez_fabiola_SDI.iws" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1970803">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.28467155">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -346,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1970803">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.28467155">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
