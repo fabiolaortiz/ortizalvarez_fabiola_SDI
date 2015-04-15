@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c65c8d-8d6e-4cec-ad96-79e72e7fe878" name="Default" comment="" />
+    <list default="true" id="c5c65c8d-8d6e-4cec-ad96-79e72e7fe878" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/index.html" afterPath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js" />
+    </list>
     <ignored path="ortizalvarez_fabiola_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.1970803">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -335,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15885022">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.090771556">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -344,7 +347,7 @@
     <entry file="file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1970803">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

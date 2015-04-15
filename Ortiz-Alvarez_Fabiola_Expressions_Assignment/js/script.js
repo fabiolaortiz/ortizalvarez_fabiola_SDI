@@ -3,7 +3,8 @@
 //Assignment: Expression Assignment
 
 //Obtain user input for calculation
-var speed = prompt('Please enter your speed in miles:');
-var distance = prompt('Please enter your distance in miles:');
-var time = prompt('Please enter your time in hours: \nExample: 6 hours and 30 minutes = 6.50');
+var principal = prompt('Please enter amount of loan:');
+var interest = prompt('Please enter the interest rate in percentage:');
+var months = prompt('Please enter the loan length in months:');
 
+//Perform calculation
