@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c65c8d-8d6e-4cec-ad96-79e72e7fe878" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/index.html" afterPath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js" />
     </list>
     <ignored path="ortizalvarez_fabiola_SDI.iws" />
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.84671533">
-              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+              <caret line="62" column="128" selection-start-line="62" selection-start-column="128" selection-end-line="62" selection-end-column="128" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -296,7 +295,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js</url>
+          <line>45</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -313,7 +320,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -323,7 +330,7 @@
         <state vertical-scroll-proportion="0.04379562">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -347,7 +354,7 @@
     <entry file="file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84671533">
-          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+          <caret line="62" column="128" selection-start-line="62" selection-start-column="128" selection-end-line="62" selection-end-column="128" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
