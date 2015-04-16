@@ -26,8 +26,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84671533">
-              <caret line="62" column="128" selection-start-line="62" selection-start-column="128" selection-end-line="62" selection-end-column="128" />
+            <state vertical-scroll-proportion="0.03649635">
+              <caret line="42" column="115" selection-start-line="42" selection-start-column="115" selection-end-line="42" selection-end-column="115" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -299,7 +299,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js</url>
-          <line>45</line>
+          <line>48</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -353,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ortiz-Alvarez_Fabiola_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84671533">
-          <caret line="62" column="128" selection-start-line="62" selection-start-column="128" selection-end-line="62" selection-end-column="128" />
+        <state vertical-scroll-proportion="0.03649635">
+          <caret line="42" column="115" selection-start-line="42" selection-start-column="115" selection-end-line="42" selection-end-column="115" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
