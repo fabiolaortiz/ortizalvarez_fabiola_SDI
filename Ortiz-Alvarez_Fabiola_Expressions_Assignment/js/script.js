@@ -5,6 +5,9 @@ April 15, 2015
 Assignment: Expression Assignment
 */
 
+//Saying hello to the user id and explaining the uses of the calculator
+alert('Welcome to your Personal Loan Calculator! \nYou can calculate up to four different scenarios \nby entering loan amount, interest rate percentage and months to be paid off. \nPlease enjoy!');
+
 //Obtain loan amount, interest and number of months for calculation of the first scenario and storing the answers on variables
 var principal1 = prompt('Please enter amount of loan:');
 var interest1 = prompt('Please enter the interest rate in percentage:');
@@ -47,23 +50,23 @@ var monthlyPmts4 = principal4 * (interestMonth4 / (1 - Math.pow((1 + interestMon
 
 // Creating array to stores the four different scenarios
 var arrayLoan = new Array(4);
-arrayLoan[0] = monthlyPmts1;
-arrayLoan[1] = monthlyPmts2;
-arrayLoan[2] = monthlyPmts3;
-arrayLoan[3] = monthlyPmts4;
+arrayLoan[0] = monthlyPmts1.toFixed(2);
+arrayLoan[1] = monthlyPmts2.toFixed(2);
+arrayLoan[2] = monthlyPmts3.toFixed(2);
+arrayLoan[3] = monthlyPmts4.toFixed(2);
 
 //Displaying monthly payments for each loan
-console.log('Your monthly payment for the first scenario of \uFF04' + principal1 + ' and ' + interest1 + '\u0025 and ' + months1 + ' months is ' + arrayLoan[0]);
-alert('Your monthly payment for the first scenario of \uFF04' + principal1 + ' and ' + interest1 + '\u0025 and ' + months1 + ' months is ' + arrayLoan[0]);
+console.log('Your monthly payment for the first scenario of \uFF04' + principal1 + ' and ' + interest1 + '\u0025 and ' + months1 + ' months is \uFF04' + arrayLoan[0]);
+alert('Your monthly payment for the first scenario of \uFF04' + principal1 + ' and ' + interest1 + '\u0025 and ' + months1 + ' months is \uFF04' + arrayLoan[0]);
 
-console.log('Your monthly payment for the second scenario of \uFF04' + principal2 + ' and ' + interest2 + '\u0025 and ' + months2 + ' months is ' + arrayLoan[1]);
-alert('Your monthly payment for the second scenario of \uFF04' + principal3 + ' and ' + interest2 + '\u0025 and ' + months2 + ' months is ' + arrayLoan[1]);
+console.log('Your monthly payment for the second scenario of \uFF04' + principal2 + ' and ' + interest2 + '\u0025 and ' + months2 + ' months is \uFF04' + arrayLoan[1]);
+alert('Your monthly payment for the second scenario of \uFF04' + principal3 + ' and ' + interest2 + '\u0025 and ' + months2 + ' months is \uFF04' + arrayLoan[1]);
 
-console.log('Your monthly payment for the third scenario of \uFF04' + principal3 + ' and ' + interest3 + '\u0025 and ' + months3 + ' months is ' + arrayLoan[2]);
-alert('Your monthly payment for the third scenario of \uFF04' + principal3 + ' and ' + interest3 + '\u0025 and ' + months3 + ' months is ' + arrayLoan[2]);
+console.log('Your monthly payment for the third scenario of \uFF04' + principal3 + ' and ' + interest3 + '\u0025 and ' + months3 + ' months is \uFF04' + arrayLoan[2]);
+alert('Your monthly payment for the third scenario of \uFF04' + principal3 + ' and ' + interest3 + '\u0025 and ' + months3 + ' months is \uFF04' + arrayLoan[2]);
 
-console.log('Your monthly payment for the fourth scenario of \uFF04' + principal4 + ' and ' + interest4 + '\u0025 and ' + months4 + ' months is ' + arrayLoan[3]);
-alert('Your monthly payment for the fourth scenario of \uFF04' + principal4 + ' and ' + interest4 + '\u0025 and ' + months4 + ' months is ' + arrayLoan[3]);
+console.log('Your monthly payment for the fourth scenario of \uFF04' + principal4 + ' and ' + interest4 + '\u0025 and ' + months4 + ' months is \uFF04' + arrayLoan[3]);
+alert('Your monthly payment for the fourth scenario of \uFF04' + principal4 + ' and ' + interest4 + '\u0025 and ' + months4 + ' months is \uFF04' + arrayLoan[3]);
 
 /*
 I entered a loan amount of $10,000, an interest of 3.4% and 72 months and the result was $153.73.
