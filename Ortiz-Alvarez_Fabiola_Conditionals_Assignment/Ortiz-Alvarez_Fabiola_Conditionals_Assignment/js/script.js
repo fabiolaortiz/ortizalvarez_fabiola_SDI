@@ -5,7 +5,7 @@
  Assignment: Conditionals Assignment
  */
 
-var totalCheck = prompt('Please enter the total amount of the check:');
+var totalCheck1 = prompt('Please enter the total amount of the check:');
 
 //Validate for blanks on prompt
 //if(totalCheck === "" || isNan(totalCheck)){
@@ -17,21 +17,33 @@ var qualityOfService1 = prompt('Please select how was the service:', ['Good','Re
 
 if(qualityOfService1 === 'Good' || qualityOfService1 === 'good'){
     alert('We recommend a 35% of tip.')
-}else if(qualityOfService1 === 'Regular' || qualityOfService1 === 'Regular'){
+}else if(qualityOfService1 === 'Regular' || qualityOfService1 === 'regular'){
     alert('We recommend a 25% of tip.')
 }else if(qualityOfService1 === 'Bad' || qualityOfService1 === 'bad'){
     alert('We recommend a 15% of tip.')
 };
 
-var amountTip = prompt('Please enter the percentage of tip:');
+var amountTip1 = prompt('Please enter the percentage of tip:');
+
+if (amountTip1 >= 15 && qualityOfService1 === 'Bad' || qualityOfService1 === 'bad'){
+    alert('That tip is ok.')
+}else if(amountTip1 >= 25 && qualityOfService1 === 'Regular' || qualityOfService1 === 'regular'){
+    alert('That tip is well received.')
+}else if(amountTip1 < 35 && qualityOfService1 === 'Good' || qualityOfService1 === 'good'){
+    alert('That tip cn be better!')
+};
 
 //Calculating amount of tip by multiplying check total by percentage of tip
-amountTip *= totalCheck;
+amountTip1 *= totalCheck1;
 //Calculating amount to be paid by sum of amount of tip plus total check
-totalCheck += amountTip;
+var totalPaid1 = totalCheck1 + amountTip1;
 
 
-var totalCheck1 = prompt('Please enter the total amount of the check:');
+alert('The check total is \uFF04' + totalCheck1 +' and the amount of tip given is \uFF04' + amountTip1 + ' for a total of \uFF04' + totalPaid1);
+
+
+
+var totalCheck2 = prompt('Please enter the total amount of the second check scenario:');
 
 //Validate for blanks on prompt
 //if(totalCheck === "" || isNan(totalCheck)){
@@ -50,15 +62,27 @@ if(qualityOfService2 === 'Good' || qualityOfService2 === 'good'){
     alert('We recommend a 15% of tip.')
 };
 
-var amountTip1 = prompt('Please enter the percentage of tip:');
+var amountTip2 = prompt('Please enter the percentage of tip for the second scenario:');
+
+if (amountTip2 >= 15 && qualityOfService2 === 'Bad' || qualityOfService2 === 'bad'){
+    alert('That tip is ok.')
+}else if(amountTip2 >= 25 && qualityOfService2 === 'Regular' || qualityOfService2 === 'regular'){
+    alert('That tip is well received.')
+}else if(amountTip2 < 35 && qualityOfService2 === 'Good' || qualityOfService2 === 'good'){
+    alert('That tip cn be better!')
+};
 
 //Calculating amount of tip by multiplying check total by percentage of tip
-amountTip1 *= totalCheck1;
+amountTip2 *= totalCheck2;
 //Calculating amount to be paid by sum of amount of tip plus total check
-totalCheck1 += amountTip1;
+var totalPaid2 = totalCheck2 + amountTip2;
 
 
-var totalCheck2 = prompt('Please enter the total amount of the check:');
+alert('The check total is \uFF04' + totalCheck2 +' and the amount of tip given is \uFF04' + amountTip2 + ' for a total of \uFF04' + totalPaid2);
+
+
+
+var totalCheck3 = prompt('Please enter the total amount of the third check scenario:');
 
 //Validate for blanks on prompt
 //if(totalCheck === "" || isNan(totalCheck)){
@@ -66,20 +90,29 @@ var totalCheck2 = prompt('Please enter the total amount of the check:');
 //totalCheck = prompt('Please enter the total amount of the check:')
 //}
 
-
 var qualityOfService3 = prompt('Please select how was the service:', ['Good','Regular','Bad']);
 
 if(qualityOfService3 === 'Good' || qualityOfService3 === 'good'){
     alert('We recommend a 35% of tip.')
-}else if(qualityOfService3 === 'Regular' || qualityOfService3 === 'Regular'){
+}else if(qualityOfService3 === 'Regular' || qualityOfService3 === 'regular'){
     alert('We recommend a 25% of tip.')
 }else if(qualityOfService3 === 'Bad' || qualityOfService3 === 'bad'){
     alert('We recommend a 15% of tip.')
 };
 
-var amountTip2 = prompt('Please enter the percentage of tip:');
+var amountTip3 = prompt('Please enter the percentage of tip:');
+
+if (amountTip3 >= 15 && qualityOfService3 === 'Bad' || qualityOfService3 === 'bad'){
+    alert('That tip is ok.')
+}else if(amountTip3 >= 25 && qualityOfService3 === 'Regular' || qualityOfService3 === 'regular'){
+    alert('That tip is well received.')
+}else if(amountTip3 < 35 && qualityOfService3 === 'Good' || qualityOfService3 === 'good'){
+    alert('That tip cn be better!')
+};
 
 //Calculating amount of tip by multiplying check total by percentage of tip
-amountTip2 *= totalCheck2;
+amountTip3 *= totalCheck3;
 //Calculating amount to be paid by sum of amount of tip plus total check
-totalCheck2 += amountTip2;
+var totalPaid3 = totalCheck3 + amountTip3;
+
+alert('The check total is \uFF04' + totalCheck3 +' and the amount of tip given is \uFF04' + amountTip3 + ' for a total of \uFF04' + totalPaid3);
