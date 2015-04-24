@@ -5,15 +5,22 @@
  Assignment: Conditionals Assignment
  */
 
+//
 var totalCheck1 = prompt('Please enter the total amount of the check:');
 
-//Validate for blanks on prompt
-//if(totalCheck === "" || isNan(totalCheck)){
-  //  alert('You have entered a blank or a letter. Please enter a number.')
-    //totalCheck = prompt('Please enter the total amount of the check:')
-//}
+//Validate for blanks and numbers on prompt
+if(totalCheck1 === "" || isNan(totalCheck1)){
+    alert('You have entered a blank or a letter. Please enter a number.')
+    totalCheck1 = prompt('Please enter the total amount of the check:')
+}
 
 var qualityOfService1 = prompt('Please select how was the service:', ['Good','Regular','Bad']);
+
+//Validate for blanks and numbers on prompt
+if(qualityOfService1 === "" || isNan(qualityOfService1)){
+    alert('You have entered a blank or a letter. Please enter a number.')
+    qualityOfService1 = prompt('Please select how was the service:', ['Good','Regular','Bad'])
+};
 
 if(qualityOfService1 === 'Good' || qualityOfService1 === 'good'){
     alert('We recommend a 35% of tip.')
@@ -24,6 +31,13 @@ if(qualityOfService1 === 'Good' || qualityOfService1 === 'good'){
 };
 
 var amountTip1 = prompt('Please enter the percentage of tip:');
+
+//Validate for blanks and numbers on prompt
+if(amountTip1 === "" || isNan(amountTip1)){
+    alert('You have entered a blank or a letter. Please enter a number.')
+    amountTip1 = prompt('Please enter the percentage of tip:')
+};
+
 
 if (amountTip1 >= 15 && qualityOfService1 === 'Bad' || qualityOfService1 === 'bad'){
     alert('That tip is more than ok.')
@@ -54,6 +68,13 @@ var totalCheck2 = prompt('Please enter the total amount of the second check scen
 
 var qualityOfService2 = prompt('Please select how was the service:', ['Good','Regular','Bad']);
 
+//Validate for blanks and numbers on prompt
+if(qualityOfService2 === "" || isNan(qualityOfService2)){
+    alert('You have entered a blank or a letter. Please enter a number.')
+    qualityOfService2 = prompt('Please select how was the service:', ['Good','Regular','Bad'])
+};
+
+
 if(qualityOfService2 === 'Good' || qualityOfService2 === 'good'){
     alert('We recommend a 35% of tip.')
 }else if(qualityOfService2 === 'Regular' || qualityOfService2 === 'regular'){
@@ -63,6 +84,12 @@ if(qualityOfService2 === 'Good' || qualityOfService2 === 'good'){
 };
 
 var amountTip2 = prompt('Please enter the percentage of tip for the second scenario:');
+
+//Validate for blanks and numbers on prompt
+if(amountTip2 === "" || isNan(amountTip2)){
+    alert('You have entered a blank or a letter. Please enter a number.')
+    amountTip2 = prompt('Please enter the percentage of tip:')
+};
 
 if (amountTip2 > 15 && qualityOfService2 === 'Bad' || qualityOfService2 === 'bad'){
     alert('That tip is more than ok.')
@@ -92,6 +119,13 @@ var totalCheck3 = prompt('Please enter the total amount of the third check scena
 
 var qualityOfService3 = prompt('Please select how was the service:', ['Good','Regular','Bad']);
 
+//Validate for blanks and numbers on prompt
+if(qualityOfService3 === "" || isNan(qualityOfService3)){
+    alert('You have entered a blank or a letter. Please enter a number.')
+    qualityOfService3 = prompt('Please select how was the service:', ['Good','Regular','Bad'])
+};
+
+
 if(qualityOfService3 === 'Good' || qualityOfService3 === 'good'){
     alert('We recommend a 35% of tip.')
 }else if(qualityOfService3 === 'Regular' || qualityOfService3 === 'regular'){
@@ -101,6 +135,13 @@ if(qualityOfService3 === 'Good' || qualityOfService3 === 'good'){
 };
 
 var amountTip3 = prompt('Please enter the percentage of tip:');
+
+//Validate for blanks and numbers on prompt
+if(amountTip3 === "" || isNan(amountTip3)){
+    alert('You have entered a blank or a letter. Please enter a number.')
+    amountTip3 = prompt('Please enter the percentage of tip:')
+};
+
 
 if (amountTip3 >= 15 && qualityOfService3 === 'Bad' || qualityOfService3 === 'bad'){
     alert('That tip is more than ok.')
